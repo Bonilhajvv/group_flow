@@ -33,7 +33,7 @@ const Formulario = (props) => {
                     aoAlterado={valor => setNome(valor)}
                 />
                 <CampoTexto
-                    brigatorio={true}
+                    obrigatorio={true}
                     label="Cargo"
                     placeholder="Digite seu cargo"
                     valor={cargo}
