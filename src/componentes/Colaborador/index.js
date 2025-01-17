@@ -1,5 +1,5 @@
 import './Colaborador.css'
-import ''
+
 const Colaborador = (props) => {
     return (
         <div className='colaborador'>
