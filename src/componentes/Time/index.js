@@ -3,17 +3,18 @@ import './Time.css';
 
 const Time = (props) => {
     return (
-        <section className='time' style={{ backgroundColor: props.corSecundaria }}>
+        (props.colaboradores.length) > 0 ? <section className='time' style={{ backgroundColor: props.corSecundaria }}>
             <h3 style={{ borderColor: props.corPrimaria }}>{props.nome}</h3>
-            {props.colaboradores.map((colaborador, index) => (
+            {props.colaboradores.map((colaborador) => (
                 <Colaborador 
-                    key={index}
+                    corDeFundo={props.corPrimaria}
+                    key={colaborador.nome}
                     nome={colaborador.nome} 
                     cargo={colaborador.cargo} 
                     imagem={colaborador.imagem}
                 />
             ))}
-        </section>
+        </section> : null
     );
 };
 

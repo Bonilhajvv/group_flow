@@ -1,9 +1,9 @@
 import './Colaborador.css'
-
+import ''
 const Colaborador = (props) => {
     return (
         <div className='colaborador'>
-            <div className='cabecalho'>
+            <div>
                 <img src={props.imagem} alt={props.nome} />
             </div>
             <div className='rodape'>

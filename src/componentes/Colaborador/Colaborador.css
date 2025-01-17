@@ -2,14 +2,9 @@
     width: 280px;
 }
 
-.colaborador .cabecalho{
-    background-color:  #F0F0F0;
-    border-radius: 10px 10px 0px 0px;
-}
-
 .colaborador img{
     max-width: 100%;
-    border-radius: 50%;
+    border-radius: 5%;
     position: relative;
     bottom: -50px;
 }
@@ -18,7 +13,7 @@
     background: #FFFFFF;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 40px;
 }
 
