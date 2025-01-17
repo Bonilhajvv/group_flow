@@ -1,6 +1,11 @@
 .time{
     text-align: center;
     padding: 32px;
+    display: flexbox;
+}
+.cards{
+    display: flex;
+    gap: 30px;
 }
 
 .time h3{

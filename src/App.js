@@ -12,9 +12,14 @@ function App() {
       corSecundaria: '#D9F7E9',
     },
     {
+      nome: 'Back-End',
+      corPrimaria: '#E660C8',
+      corSecundaria: '#D68EE6',
+    },
+    {
       nome: 'Front-End',
-      corPrimaria: '#82CFFA',
-      corSecundaria: '#E8F8FF',
+      corPrimaria: '#9D60E5',
+      corSecundaria: '#BA8FE6',
     },
     {
       nome: 'Data Science',
